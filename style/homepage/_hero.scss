@@ -19,6 +19,7 @@
     border: none;
     border-radius: 1.6rem;
     font-weight: 700;
+    margin-left: -9rem;
   
     &:hover {
       color: $link-water-white;
@@ -27,4 +28,38 @@
     }
   }
   
+
+  form {
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+
+    input {
+      padding: 0.8rem 1.2rem;
+      border-radius: 1.6rem;
+      border: none;
+      width: 29.67rem;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+      &::placeholder{
+        font-weight: 700;
+        font-size: 1rem;
+        color: $light-san-juan-blue;
+      }
+    }
+
+    & + div {
+      font-size: 1rem;
+      color: $san-juan-blue;
+      scale: .9;
+
+      a {
+        font-weight: 700;
+        text-decoration: none;
+        color: $san-juan-blue;
+
+      }
+    }
+
+   
+  }
 }

@@ -58,11 +58,48 @@ header ul .schedule_button:hover {
   border: none;
   border-radius: 1.6rem;
   font-weight: 700;
+  margin-left: -9rem;
 }
 .hero .schedule_button:hover {
   color: #fbfcfe;
   background-color: #da6d97;
   cursor: pointer;
+}
+.hero form {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.hero form input {
+  padding: 0.8rem 1.2rem;
+  border-radius: 1.6rem;
+  border: none;
+  width: 29.67rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.hero form input::-moz-placeholder {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #6c8294;
+}
+.hero form input:-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #6c8294;
+}
+.hero form input::placeholder {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #6c8294;
+}
+.hero form + div {
+  font-size: 1rem;
+  color: #36536b;
+  scale: 0.9;
+}
+.hero form + div a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #36536b;
 }
 
 * {
