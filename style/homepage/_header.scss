@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   align-items: center;
@@ -30,12 +31,16 @@ header {
     .schedule_button {
       color: $link-water-white;
       background-color: $dark-pink;
-      padding: 12px 18px;
-      border-radius: 24px;
-
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 1.6rem;
+      font-weight: 700;
+    
       &:hover {
         color: $link-water-white;
         background-color: $charm-pink;
+        cursor: pointer;
+    
       }
     }
 

@@ -1,6 +1,7 @@
 @import "./variables";
 @import "./font";
-@import "./home";
+@import "./homepage/home";
+@import "./mixins/schedule_button";
 
 *{
   margin: 0;

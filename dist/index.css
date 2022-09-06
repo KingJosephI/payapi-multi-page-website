@@ -19,21 +19,50 @@ header ul > li:last-child {
 }
 header ul a {
   text-decoration: none;
-  color: hsl(207deg, 16%, 50%);
+  color: #6c8294;
   font-weight: 700;
 }
 header ul a:hover {
-  color: hsl(207deg, 33%, 32%);
+  color: #36536b;
 }
 header ul .schedule_button {
-  color: hsl(220deg, 60%, 99%);
-  background-color: hsl(337deg, 48%, 49%);
-  padding: 12px 18px;
-  border-radius: 24px;
+  color: #fbfcfe;
+  background-color: #ba4270;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 1.6rem;
+  font-weight: 700;
 }
 header ul .schedule_button:hover {
-  color: hsl(220deg, 60%, 99%);
-  background-color: hsl(337deg, 60%, 64%);
+  color: #fbfcfe;
+  background-color: #da6d97;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__heading {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  font-family: "Public Sans", sans-serif;
+  letter-spacing: -0.55px;
+  color: #36536b;
+}
+.hero .schedule_button {
+  color: #fbfcfe;
+  background-color: #ba4270;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 1.6rem;
+  font-weight: 700;
+}
+.hero .schedule_button:hover {
+  color: #fbfcfe;
+  background-color: #da6d97;
+  cursor: pointer;
 }
 
 * {
