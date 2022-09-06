@@ -19,6 +19,21 @@ header ul > li:last-child {
 }
 header ul a {
   text-decoration: none;
+  color: hsl(207deg, 16%, 50%);
+  font-weight: 700;
+}
+header ul a:hover {
+  color: hsl(207deg, 33%, 32%);
+}
+header ul .schedule_button {
+  color: hsl(220deg, 60%, 99%);
+  background-color: hsl(337deg, 48%, 49%);
+  padding: 12px 18px;
+  border-radius: 24px;
+}
+header ul .schedule_button:hover {
+  color: hsl(220deg, 60%, 99%);
+  background-color: hsl(337deg, 60%, 64%);
 }
 
 * {

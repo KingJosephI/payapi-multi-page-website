@@ -2,7 +2,6 @@ header {
   display: flex;
   align-items: center;
   gap: 4rem;
-  // padding-top: 3.33rem;
   margin-top: 3.33rem;
 
   nav{
@@ -20,6 +19,24 @@ header {
     
     a{
       text-decoration: none;
+      color: $light-san-juan-blue;
+      font-weight: 700;
+
+      &:hover {
+        color: $san-juan-blue;
+      }
+    }
+
+    .schedule_button {
+      color: $link-water-white;
+      background-color: $dark-pink;
+      padding: 12px 18px;
+      border-radius: 24px;
+
+      &:hover {
+        color: $link-water-white;
+        background-color: $charm-pink;
+      }
     }
 
 
